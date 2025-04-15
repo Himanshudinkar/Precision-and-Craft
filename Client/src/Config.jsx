@@ -1,3 +1,3 @@
 
-const BASE_URL="http://localhost:8080";
+const BASE_URL="https://precision-and-craft.onrender.com";
 export default BASE_URL;
