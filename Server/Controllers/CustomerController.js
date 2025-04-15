@@ -1,6 +1,6 @@
 const CustmoerModel= require("../Model/CustomerModel")
 const ProductModel = require("../Model/ProductModel")
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require("jsonwebtoken")
 
 const Registration=async(req, res)=>{
