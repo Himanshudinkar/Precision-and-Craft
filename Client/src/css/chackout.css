@@ -1,0 +1,110 @@
+/* Checkout.css */
+.checkout-container {
+  background-color: #012528;
+  color: #e2f1f8;
+  padding: 40px 20px;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkout-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #00f7ff;
+  text-shadow: 0 0 10px #00f7ff70;
+}
+
+.checkout-table {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 1100px;
+  border-collapse: collapse;
+  background-color: #01393a;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.checkout-table thead {
+  background-color: #025e5e;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.checkout-table td,
+.checkout-table th {
+  padding: 14px 18px;
+  text-align: center;
+  color: #014040;
+  border-bottom: 1px solid #035858;
+}
+
+.checkout-table tr:hover {
+  background-color: #044a4a;
+  transition: all 0.3s ease-in-out;
+}
+
+.checkout-table img {
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.05);
+}
+
+.checkout-total {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #38e794;
+  margin: 30px 0;
+  font-weight: 600;
+}
+
+.customer-details {
+  width: 90%;
+  max-width: 550px;
+  margin: 20px auto;
+  background-color: #014040;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.07);
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #def3f7;
+}
+
+.customer-details div {
+  margin-bottom: 10px;
+}
+
+.customer-details strong {
+  color: #00ffb3;
+}
+
+.pay-button {
+  display: block;
+  margin: 25px auto 10px auto;
+  background-color: #00c9a7 !important;
+  color: #012528 !important;
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.pay-button:hover {
+  background-color: #00b69e !important;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #00ffcc90;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.checkout-table {
+  min-width: 700px; /* Table won't squeeze, instead scrolls on small screens */
+}

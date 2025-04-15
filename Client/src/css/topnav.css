@@ -1,0 +1,82 @@
+body{
+    background-color: #013f46;
+}
+
+.linking{
+    color: white;
+}
+.navback{
+    margin-top: 0% !important;
+    background-color: black !important;
+}
+
+/* Navbar.css */
+.custom-navbar {
+  background-color: #013f46 !important;
+  padding: 8px 15px;
+  min-height: 60px;
+}
+
+.navbar-logo {
+  width: 200px;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links .nav-link {
+  color: white !important;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links .nav-link:hover {
+  color: #00bcd4 !important;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #00bcd4;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

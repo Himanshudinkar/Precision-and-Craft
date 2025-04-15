@@ -1,0 +1,110 @@
+.pfooter {
+  background-color: #013f46;
+  color: #fff;
+  padding: 60px 20px 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.pfooter-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.pfooter-section {
+  flex: 1 1 220px;
+  min-width: 220px;
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.logo-text .p-letter {
+  color: #00ffc8;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.logo-text .c-letter {
+  color: #ffcb74;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.logo-text .and {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #cccccc;
+  max-width: 300px;
+  line-height: 1.6;
+}
+
+.pfooter-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #00ffc8;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.pfooter-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pfooter-section ul li {
+  margin-bottom: 10px;
+}
+
+.pfooter-section ul li a {
+  color: #dddddd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.pfooter-section ul li a:hover {
+  color: #00ffc8;
+}
+
+.contact-sec p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #cccccc;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 12px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00ffc8;
+}
+
+.pfooter-bottom {
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid #00ffc833;
+  font-size: 13px;
+  color: #bbbbbb;
+}

@@ -1,0 +1,175 @@
+/* Home.css */
+.carousel-container {
+  padding: 10px 20px; /* Adds spacing from all sides */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-carousel {
+  width: 100%; /* Prevents full-width stretching */
+  max-height: 90vh; /* Controls height */
+}
+
+.carousel-image {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover; /* Ensures images fit well without distortion */
+  border-radius: 10px; /* Adds soft corners for a modern look */
+}
+
+
+.iconcard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  flex-wrap: wrap;
+}
+
+.iconcard .cards{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.iconcard .cards .ic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.iccon h1{
+  font-size: 20px;
+}
+
+.iccon p{
+  font-size: 15px;
+}
+
+.singleline{
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.singleline h1{
+  font-size: 30px;
+}
+
+.singleline p{
+  color: rgb(181, 175, 175);
+}
+
+.cards-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    background-color: #0f1b21; /* Dark background */
+}
+
+.custom-card {
+    background-color: #11232b;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.card-image-container {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-icons {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.iconi {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.iconi:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.card-body {
+    text-align: center;
+    padding: 15px;
+}
+
+.card-category {
+    color: #b0bec5;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.card-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.add-to-cart {
+    background-color: #FFD700;
+    border: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #e6c200;
+}
+
+.prolength{
+  height: 20px;
+  width: 20px;
+  background-color: red; 
+  border-radius: 50%;
+  
+}
+.prolength p{
+color: white;
+font-size: 15px;
+position: relative;
+left: 5px;
+bottom: 1px;
+}

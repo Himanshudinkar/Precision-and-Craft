@@ -1,0 +1,84 @@
+body {
+  background-color: #013f46;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.co-container {
+  padding: 40px 20px;
+  background-color: #013f46;
+  min-height: 100vh;
+}
+
+.co-title {
+  text-align: center;
+  color: #00ffe0;
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.co-table {
+  background-color: #014b52;
+  color: #e0f7fa;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+  overflow: hidden;
+}
+
+.co-table thead th {
+  background-color: #026066;
+  color: #00ffe0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.co-table td {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 0.95rem;
+  padding: 12px;
+}
+
+.co-table tbody tr:hover {
+  background-color: #02575d;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* ✅ Green row after dispatch */
+.co-table tbody tr.co-dispatched-row {
+  background-color: #1db954 !important;
+  color: #ffffff !important;
+}
+
+
+/* ✅ Dispatch button */
+.co-dispatch-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #00ffc3;
+  color: #013f46;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.co-dispatch-btn:hover {
+  background-color: #00c6a2;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .co-title {
+    font-size: 2rem;
+  }
+
+  .co-table {
+    font-size: 0.85rem;
+  }
+}
